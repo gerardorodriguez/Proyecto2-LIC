@@ -1,0 +1,1 @@
+document.write("<footer> || Alejandro Arteaga || Jairo Molina ||<br>|| Rafael Rodriguez ||<br> ||<a href='contactanos.html'>Cont&aacute;ctanos||</a></footer>");

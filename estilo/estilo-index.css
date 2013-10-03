@@ -1,0 +1,128 @@
+
+body{
+font-family: "chalet",Helvetica,verdana;
+font-size: 2em; /* 16px = 12pt = 100% = 1em (es el ancho de la letra M)*/
+}
+
+header
+{
+background:#E6E6E6;
+color:#1E6381;
+font-size:36px;
+margin:0.5em auto; /*se trabaja en parejas alto y ancho*/
+width:80%;
+height:80%;
+padding: 0px 0px 0px 30px; 
+text-align:left;
+border-radius: 0.5em;
+}
+
+
+input{
+	padding: 10px 10px 0px 0px;
+	width: 10%;
+	height: 100%;
+	text-align: right;
+border-radius: 0.5em;
+}
+
+button{
+	width: 10%;
+	height: 100%;
+	padding: 10px 0px 0px 0px;
+border-radius: 0.5em;
+}
+
+	
+section#buscar{
+	text-align: right;
+	padding-right: 50px;
+}
+
+section#cont-general{
+border-radius: 0.5em;
+margin: 0.5em auto; /*se trabaja en parejas alto y ancho*/
+width:80%;
+padding:0;
+text-align: center;
+background:#CDCDCD;
+}
+
+nav
+{
+margin: 0.5em auto; /*se trabaja en parejas alto y ancho*/
+width:50%;
+padding:0.25em;
+text-align: center;
+color:#036;
+border-bottom-style:solid;
+border-color:#036;
+border-bottom-width:2.5px;
+
+}
+
+
+
+footer
+{
+background:#E6E6E6;
+color:#1E6381;
+font-size:18px;
+margin:0.5em auto; /*se trabaja en parejas alto y ancho*/
+width:78%;
+padding: 30px 30px 0px 30px; 
+text-align:center;
+border-radius: 0.5em;
+}
+
+section#categorias{
+background:#BBB;
+border-radius: 0.5em;
+display: inline-block; /* es el atributo como se mostrara dispocion de
+elemento */
+margin: 0.25em auto; /*se trabaja en parejas alto y ancho*/
+max-width:960px;
+min-height:200px;
+padding:0.25em;
+text-align: center;
+vertical-align: top;
+width: 30%;
+color:#003;
+}
+
+section#resultado{
+	background:#BBB;
+border-radius: 0.5em;
+display: inline-block; /* es el atributo como se mostrara dispocion de
+elemento */
+margin: 0.25em auto; /*se trabaja en parejas alto y ancho*/
+padding:0.25em;
+text-align: center;
+vertical-align: top;
+width: 50%;
+color:#003;
+font-size: 60%;
+}
+
+section#descripcion{
+	background:#BBB;
+border-radius: 0.5em;
+display: inline-block; /* es el atributo como se mostrara dispocion de
+elemento */
+margin: 0.25em auto; /*se trabaja en parejas alto y ancho*/
+max-width:960px;
+min-height:200px;
+padding:0.25em;
+text-align: center;
+vertical-align: top;
+width: 30%;
+color:#003;
+font-size: 12px;
+}
+
+#img2{
+	height:150px;
+	width:350px;
+	max-height:50%;
+	max-width:70%;
+	}

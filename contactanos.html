@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Cont&aacute;ctanos.</TITLE>
+    <meta charset="utf-8"/>
+    <meta
+    name="Inicio"
+    content="Catálogo de ventas sobre productos informáticos"/>
+    <link rel="stylesheet" href="estilo/estilo-index.css" />
+    <script src="js/funcion.js"></script>
+    <script type="text/javascript">
+        function mensaje() {
+       
+       
+
+        if(document.frm.nombre.value =="" || document.frm.email.value =="" || document.frm.mensaje.value =="")
+        {
+            window.alert("Rellene los datos"); 
+        }
+        else
+        {
+            var nom= document.frm.nombre.value;
+            var em= document.frm.email.value;
+            var men=document.frm.mensaje.value;
+            window.alert("Datos enviados correctamentee"); 
+
+        }
+
+    }
+</script>
+  </head>
+
+  
+  <body>
+  <!--  AQUI ESTA EL HEADER, EL BANNER  -->
+<script type="text/javascript" src="js/encabezado.js"></script>
+
+  <section id="cont-general">
+
+  <nav>
+		Formulario: 
+        
+	</nav>
+<form name="frm" id="frm">
+
+<TABLE>
+<td>
+    <tr>
+        Nombre completo:
+
+        <input type="text" name="nombre" id="nombre"><br>
+
+    </tr>
+</td>
+
+<td>
+    <tr>
+        Email:
+        <input type="text" name="email" id="email"><br>
+    </tr>
+</td>
+<td>
+    <tr>
+        Mensaje:
+        <input type="text" name="mensaje" id="mensaje"><br>
+    </tr>
+</td>
+</TABLE>
+
+</form>
+<button onclick="mensaje()">Enviar</button>
+   
+
+</section>
+
+<script type="text/javascript" src="js/pie.js"></script>
+
+
+</body>
+</html>
+
